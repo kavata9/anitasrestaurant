@@ -86,6 +86,48 @@
         </div>
       </div>
     </div>
+    <div class="row" id="back" style="height:500px; padding:23px;">
+      <div id="betty" class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+          <li role="presentation" >
+            <a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="false">Fast  Food</a>
+          </li>
+           <li role="presentation" >
+             <a href="#home" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Drinks</a>
+           </li>
+           <li role="presentation">
+             <a href="#home" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Chicken</a>
+           </li>
+           <li role="presentation">
+             <a href="#home" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Rice</a>
+           </li>
+            </ul>
+            <div class="tab-content" id="myTabContent" style="padding-top:20px;">
+              <div class="tab-pane fade in active" role="tabpanel" id="home" aria-labelledby="home-tab">
+                   <div class="row" style="height:100%;">
+                     <div class="col-md-4">
+                        <span id="span1" class="glyphicon glyphicon-chevron-left"></span>
+                       <img src="images/assets/fastfood/beefBurger.jpg" alt="">
+                       <p id="shish">beef Burger</p>
+
+                     </div>
+                     <div class="col-md-4">
+                       <img src="images/assets/fastfood/chickenBurger.jpg" alt="">
+                       <p id="shish">Chicken Burger</p>
+                     </div>
+                     <div class="col-md-4">
+
+                       <img src="images/assets/fastfood/chickenPizza.jpg" alt="">
+                         <p id="shish">Chicken Pizza</p>
+                         <span id="span2" class="glyphicon glyphicon-chevron-right"></span>
+                     </div>
+                   </div>
+
+                 </div>
+
+                </div>
+            </div>
+    </div>
     <!--CUSTOMERS-->
   <div class="container-fluid">
     <div class="row">
@@ -115,6 +157,47 @@
     </div>
   </div>
   <!--END CUSTOMERS-->
+  <!--MAIL-->
+  <div class="col-md-12 media3">
+    <h1 class="textt">Get our daily food items delivered to your email</h1>
+    <div class="mail">
+      <form action="">
+        <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
+        <a href="#" class="formButton">Subscribe</a>
+      </form>
+    </div>
+  </div>
+  <!--END MAIL-->
+
+  <!--FOOTER-->
+  <div class="col-md-12 footer">
+    <div class="social">
+      <h1 style="color:#ffffff;"><img src="images/assets/footerlogos/logo_white.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""> MENU</h1>
+      <h3>Thats What We Are</h3><br/>
+      <img src="images/assets/footerlogos/facebook.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+      <img src="images/assets/footerlogos/twitter.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+      <img src="images/assets/footerlogos/pinterest.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><br/><br/><br/>
+      <h4>2016 Menu Restaurant</4>
+    </div>
+</div>
+<!--END FOOTER-->
+
+<!---Clickable menu scripts--->
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<!---Clickable menu scripts--->
+<!--Bootstrap scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
 
 </body>
 </html>
