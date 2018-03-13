@@ -146,39 +146,6 @@ transition: .5s ease;
  align-items: center;
  width: 395px;
 }
-#image{
-   margin: 100px;
-   border-radius: 4px;
-   padding: 5px;
-   padding-right: 0px;
-   border: 1px solid #ddd;
-   align-content: center;
-   align-items: center;
-   width: 410px;
- }
- #image1 {
-   width: 400px;
-}
-#image2 {
- width: 400px;
-}
-#img3{
- height:300px;
-}
-#img4{
- height:300px;
-}
-#image5{
- margin: 100px;
- background-color: white;
- border-radius: 4px;
- padding: 5px;
- padding-right: 0px;
- border: 1px solid #ddd;
- align-content: center;
- align-items: center;
- width: 395px;
-}
 #button1 {
    color: #F15A29;
    border: 2px solid #F15A29;
