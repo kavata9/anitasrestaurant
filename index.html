@@ -1,11 +1,13 @@
 <!DOCTYPE html>
       <html>
         <head>
-          <meta charset="utf-8">
-          <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-          <link href="css/styles.css" rel="stylesheet" type="text/css">
-          <script src="js/jquery-3.3.1.js"></script>
-          <script src="js/scripts.js"></script>
+          <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="images/fonts/beauty/stylesheet.css" type="text/css">
             <title>anitasKitchen</title>
         </head>
        <body>
@@ -129,73 +131,68 @@
             </div>
     </div>
     <!--CUSTOMERS-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 bg-1">
-        <div class="col-md-12 cust">
-          <div class="col-md-8 bg-1">
-            <div id="text3">
-              <h2 style="color:#F15A29;">Our Happy Customers</h2>
-              <h3>George Richard</h3>
-              <p>Data Structures are the programmatic way of storing data so that data can be used efficiently. Almost every enterprise application uses various types of data structures in one or the other way.</p>
-              <span style="font-size:30px;color:#F15A29;"> &#8249; </span>
-              <img src="images/assets/customers/p1.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-              <img src="images/assets/customers/p2.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-              <img src="images/assets/customers/p3.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><span style="font-size:30px;color:#F15A29;"> &#8250;</span>
+    <div class="row" id="customers">
+         <div class="row" style="text-align:center;">
+           <div class="col-md-8">
+             <h1 id="happy">  Our Happy Customers</h1>
+             <h3>George Richard</h3>
+                 <p>Great food! Menu is awesome,their foods are not only great <br>but also in the right price. I'll highly recommend them :)
+                 </p>
+             <ul id="listtags">
+               <span class="glyphicon glyphicon-menu-left arrow"></span>
+               <li><img src="images/assets/customers/p1.png" alt=""></li>
+               <li><img src="images/assets/customers/p2.png" alt=""></li>
+               <li><img src="images/assets/customers/p3.png" alt=""></li>
+               <span class="glyphicon glyphicon-menu-right arrow"></span>
+             </ul>
+
+           </div>
+           <div class="col-md-4" style="border-left: 3px solid #c3c0c3;">
+             <h1 id="aboutmenu">About Menu</h1>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                 ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                 culpa qui
+               officia deserunt mollit anim id est laborum.
+             </p>
+           </div>
+         </div>
+       </div>
+
+       <div class="row" id="subscription">
+         <form id="form">
+           <p>Get our daily food items delivered to you email</p>
+           <br/>
+           <input type="text" name="email" id="email">
+           <button id="button">Subscribe</button >
+         </form>
+       </div>
+       <!-- adds footer -->
+        <div class="row" id="footer">
+
+
+          <div class="col-md-12">
+            <div class="row icon-pos">
+              <img src="images/assets/footerlogos/logo_white.png" id="logo-white">
+              <h1 id="logo-white-caption">MENU<h1>
             </div>
-          </div>
-          <div class="col-md-4 bg-1">
-            <div id="text3">
-              <h2 style="color:#F15A29;">About Menu</h2>
-              <p>Data Structures are the programmatic way of storing data so that data can be used efficiently. Almost every enterprise application uses various types of data structures in one or the other way.Data Structures are the programmatic way of
-                storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently.
-                Almost every enterprise application uses various types of data structures in one or the other way.</p>
-            </div>
+
+            <p id="caption">That is What We Are</p>
+            <img src="images/assets/footerlogos/facebook.png" class="footer-logos">
+            <img src="images/assets/footerlogos/twitter.png" class="footer-logos">
+            <img src="images/assets/footerlogos/pinterest.png" class="footer-logos">
+            <p id="copyright">2016 Menu Restuarant</p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!--END CUSTOMERS-->
-  <!--MAIL-->
-  <div class="col-md-12 media3">
-    <h1 class="textt">Get our daily food items delivered to your email</h1>
-    <div class="mail">
-      <form action="">
-        <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
-        <a href="#" class="formButton">Subscribe</a>
-      </form>
-    </div>
-  </div>
-  <!--END MAIL-->
 
-  <!--FOOTER-->
-  <div class="col-md-12 footer">
-    <div class="social">
-      <h1 style="color:#ffffff;"><img src="images/assets/footerlogos/logo_white.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""> MENU</h1>
-      <h3>Thats What We Are</h3><br/>
-      <img src="images/assets/footerlogos/facebook.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-      <img src="images/assets/footerlogos/twitter.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-      <img src="images/assets/footerlogos/pinterest.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><br/><br/><br/>
-      <h4>2016 Menu Restaurant</4>
-    </div>
-</div>
-<!--END FOOTER-->
-
-<!---Clickable menu scripts--->
-<script>
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-</script>
-<!---Clickable menu scripts--->
-<!--Bootstrap scripts-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+     <script>
+     src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+     crossorigin="anonymous"></script>
+     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">  </script>
+     <script src="js/scripts.js"></script>
     </body>
 </html>
 
